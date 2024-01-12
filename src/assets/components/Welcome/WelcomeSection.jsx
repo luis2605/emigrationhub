@@ -1,18 +1,17 @@
 import React from "react";
 import classes from "./WelcomeSection.module.css";
+import { useTranslation } from "react-i18next";
 
 const WelcomeSection = () => {
+  const { i18n } = useTranslation();
+  const { t } = useTranslation();
+
   return (
     <div className={classes["welcome-container"]}>
       <div className={classes["welcome-intro"]}>
-        <h2>Embarking on a journey to a new chapter of your life?</h2>
-        <h3>You're in the right place. </h3>
-        <p>
-          GlobalMoveHub is your go-to resource for navigating the exciting world
-          of emigration. Whether you're considering a change for personal
-          growth, career opportunities, or a fresh start, we're here to guide
-          you every step of the way.
-        </p>
+        <h2>{t("welcomeSection_title")} </h2>
+        <h3> {t("welcomeSection_subtitle")} </h3>
+        <p>{t("welcomeSection_intro")}</p>
       </div>
     </div>
   );

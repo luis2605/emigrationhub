@@ -27,11 +27,11 @@ const logoContainer = (
 const langSelection = [
   {
     lang: "en",
-    icon: en,
+    icon: es,
   },
   {
     lang: "es",
-    icon: es,
+    icon: en,
   },
 ];
 
@@ -63,7 +63,7 @@ const NavBar = () => {
         key="lg"
         expand="lg"
         className="bg-body-tertiary mb-3"
-        style={{ background: "red" }}
+        style={{ background: "red", zIndex: "100" }}
       >
         <Container fluid className="align-items-baseline">
           <Navbar.Brand href="#"> {logoContainer}</Navbar.Brand>
@@ -93,20 +93,6 @@ const NavBar = () => {
                     onClick={handleToggle}
                   />
                 </Nav.Link>
-                {/* <NavDropdown
-                  title={globeIcon}
-                  id={`offcanvasNavbarDropdown-expand-lg`}
-                  className=" pe-5"
-                >
-                  <NavDropdown.Item onClick={() => changeLanguage("en")}>
-                    <p className={classes["language-picker"]}>En</p>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item onClick={() => changeLanguage("es")}>
-                    <p className={classes["language-picker"]}>Es</p>
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item></NavDropdown.Item>
-                </NavDropdown> */}
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

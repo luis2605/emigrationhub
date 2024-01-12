@@ -1,6 +1,13 @@
 * {
   margin: 0;
 }
+:root {
+  --seasalt: #f8f7f7ff;
+  --maize: #fee970ff;
+  --khaki: #a29888ff;
+  --silver: #b3aca2ff;
+  --cobalt-blue: #044daeff;
+}
 body,
 h1,
 h2,

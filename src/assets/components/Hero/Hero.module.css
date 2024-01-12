@@ -9,10 +9,22 @@
     "center1 center2 right";
   grid-template-rows: 0.5fr 1fr 0.5fr;
   grid-template-columns: 1fr 2fr 1fr;
+
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+
+  background: var(--maize);
+  z-index: 0;
 }
 .em-definition {
   grid-area: center2;
+  padding: 0.5em;
 }
+
 .hero-img-1 {
   width: 100%;
   grid-area: right;

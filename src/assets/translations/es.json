@@ -1,5 +1,9 @@
 {
   "definition": "Emigración",
   "description": "Emigración se refiere al acto de abandonar el propio país para establecerse permanentemente en otro. Implica mudarse de la propia tierra natal para residir en un país diferente.",
-  "phonetics": " /emiɡraˈθjon/"
+  "phonetics": " /emiɡraˈθjon/",
+
+  "welcomeSection_title": "¿Embarcándote en un viaje hacia un nuevo capítulo de tu vida?",
+  "welcomeSection_subtitle": "Pues, estás en el lugar adecuado",
+  "welcomeSection_intro": "Emigrationhub es tu recurso de referencia para navegar por el apasionante y duro mundo de la emigración. Tanto si estás pensando en un cambio por crecimiento personal, oportunidades profesionales o un nuevo comienzo, estamos aquí para guiarte en cada paso del camino."
 }
