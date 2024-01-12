@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Merriweather Sans", sans-serif;
+}
+h2,
+h3 {
+  font-family: "Titillium Web", sans-serif;
+}
+
+p {
+  font-family: "Imprima", sans-serif;
+}

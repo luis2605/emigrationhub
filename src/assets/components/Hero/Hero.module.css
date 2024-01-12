@@ -1,0 +1,93 @@
+.hero-container {
+  margin: -1em auto 1em auto;
+
+  width: 100%;
+
+  display: grid;
+  grid-template-areas:
+    "top1 top2 right"
+    "center1 center2 right";
+  grid-template-rows: 0.5fr 1fr 0.5fr;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.em-definition {
+  grid-area: center2;
+}
+.hero-img-1 {
+  width: 100%;
+  grid-area: right;
+  position: relative;
+  bottom: -40%;
+  display: none;
+}
+.hero-img-2 {
+  width: 60%;
+  grid-area: top1;
+  position: relative;
+  top: 115%;
+  display: none;
+}
+.hero-img-3 {
+  width: 150%;
+  position: relative;
+  top: 100%;
+  grid-area: center1;
+}
+.hero-img-4 {
+  width: 100%;
+  grid-area: top2;
+  position: relative;
+  left: 55%;
+}
+
+/*media queries */
+@media (min-width: 768px) {
+  .hero-img-1 {
+    width: 100%;
+    grid-area: right;
+    position: relative;
+    bottom: -70%;
+    display: block;
+  }
+  .hero-img-2 {
+    width: 75%;
+    grid-area: top1;
+    position: relative;
+    top: 25%;
+    display: block;
+  }
+}
+@media (min-width: 1024px) {
+  .hero-img-3 {
+    width: 100%;
+    position: relative;
+    top: 100%;
+    grid-area: center1;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero-img-1 {
+    width: 70%;
+    grid-area: right;
+    position: relative;
+  }
+  .hero-img-2 {
+    width: 40%;
+    grid-area: top1;
+    position: relative;
+    top: 5%;
+  }
+  .hero-img-3 {
+    width: 75%;
+    position: relative;
+    top: 60%;
+    grid-area: center1;
+  }
+  .hero-img-4 {
+    width: 50%;
+    grid-area: top2;
+    position: relative;
+    left: 55%;
+  }
+}

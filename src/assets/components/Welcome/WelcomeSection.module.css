@@ -1,0 +1,17 @@
+.welcome-container {
+  margin-top: 8em;
+
+  width: 100%;
+
+  display: grid;
+  grid-template-areas:
+    "tleft center tright"
+    "bleft center bright";
+  grid-template-rows: 0.5fr 1fr 0.5fr;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.welcome-intro {
+  grid-area: center;
+  display: flex;
+  flex-direction: column;
+}
